@@ -44,9 +44,19 @@
 
         
         <div class="jumbotron">
-        <h1>Texoma Lawn Care</h1>
-        <p class="lead">903-640-3404</p>
-          <p class="lead">TexomaLawnCare@gmail.com</p>
+            <div class="thumbnail" style = 'width:20%; float:left;'>
+                <img src="png/icon.png" alt="...">
+            </div>
+            <div class="thumbnail" style = 'width:19%; float:right;'>
+                <img src="png/icon.png" alt="...">
+            </div>            
+            <div style="width:60% position:center">
+                <h1>Texoma Lawn Care</h1>
+                <p class="lead">903-640-3404</p>
+                <p class="lead">TexomaLawnCare@gmail.com</p>    
+            </div>
+
+
 <!--        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
         </div>
     </body>
