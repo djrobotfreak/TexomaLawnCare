@@ -9,10 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-<!--
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
--->
     <title>Texoma Lawn Care</title>
 
     <!-- Bootstrap core CSS -->
@@ -31,6 +29,27 @@
     <![endif]-->
   </head>
     <body>
+
+        <div class="container">
+<!--
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">Project name</h3>
+      </div>
+-->
+
+        
+        <div class="jumbotron">
+        <h1>Texoma Lawn Care</h1>
+        <p class="lead">903-640-3404</p>
+          <p class="lead">TexomaLawnCare@gmail.com</p>
+<!--        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+        </div>
+    </body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
