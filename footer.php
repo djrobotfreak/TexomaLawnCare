@@ -4,9 +4,6 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/jquery.history.js"></script>
         <script src="js/vendor/smooth-scroll.js"></script>
-        <script src="js/vendor/underscore-min.js"></script>
-        <script src="js/vendor/backbone-min.js"></script>
-        <script src="js/views/menuitemdetails.js"></script>
         <script src="js/main.js"></script>
 
 <!--
