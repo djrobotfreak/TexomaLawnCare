@@ -1,2 +1,3 @@
-<?php
-    echo 'Hello world! :) my name is Tanner and I like mowing';
+<?php include("header.php");?> 
+<?php include("home.php");?> 
+<?php include("footer.php");?>
