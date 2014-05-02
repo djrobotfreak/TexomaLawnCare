@@ -55,8 +55,6 @@
                 <p class="lead">903-640-3404</p>
                 <p class="lead">TexomaLawnCare@gmail.com</p>    
             </div>
-
-
 <!--        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
         </div>
     </body>
