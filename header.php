@@ -54,8 +54,8 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Things to know</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="php/things.php">Things to know</a></li>
             </ul>
           </div>
         </div>
