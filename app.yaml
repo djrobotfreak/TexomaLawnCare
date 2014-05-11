@@ -16,8 +16,5 @@ handlers:
 - url: /
   script: index.php
   
-- url: /php/things.php
-  script: things.php
-  
 - url: /things
   script: things.php
