@@ -18,7 +18,6 @@ img {
     vertical-align: middle;
 }
 
-
 /*
     h1:after {
         content: "Texoma Lawn Care";
@@ -98,38 +97,57 @@ body {
 }
 .marketing p + h4 {
   margin-top: 28px;
-  
 }
 p {
     font-size: 18px;
 }
-.col-md-6{
-  text-align: center;
+.styling{
+     border-radius: 10px;
+     margin: 10px;
+    background-color: grey;
+    padding-bottom: 10px;
+    height:100%;
 }
-.col-md-4{
-  text-align: center;
-
+.heading h5{
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    text-align: center;
 }
 body h5{
     font-size:22px;
     margin-bottom: 10px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 body h4 {
    font-size: 25px; 
     margin-bottom: 10px;
     text-decoration: underline;
+    font-weight: bold;
 }
 .person{
-    max-height: 200px;
-    max-width:400px;
+
     margin:0 auto;
 }
-.person p {
-    text-align: left;
-    padding-left: 9px;
+.person li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.person img{
+    height:120px; 
+    border-radius:15px;
+    margin-bottom: 12px;
+}
 
+#discount{
+vertical-align: middle;
+    margin-top: 40px;
+}
+.offset p{
+    font-weight: bold;
+    margin-top: 6px;
 }
 .dollar{
     color:yellow;

@@ -13,5 +13,11 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
+- url: /
   script: main.php
+  
+- url: /php/things.php
+  script: things.php
+  
+- url: /things
+  script: things.php
