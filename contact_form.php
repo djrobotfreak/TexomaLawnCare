@@ -12,12 +12,12 @@ if (isset($_REQUEST['email']))
       $email = $_REQUEST['email'];
       $address = $_REQUEST['address'];
       $phone = $_REQUEST['phone'];  
-      $message_content = $_REQUEST['message']."<br>From:".$name."<br>Reply Email: ".$email."<br>Phone Number: ".$phone."<br>Address: ".$address;
+      $message_content = $_REQUEST['message']."\nFrom:".$name."\nReply Email: ".$email."\nPhone Number: ".$phone."\nAddress: ".$address;
       $headers = "From: Derek Website<derek.wene@yahoo.com>/r/n";
     //  $headers = "Content-type: text/html;";
       $message = new Message();
       $message->setSender("djrobotfreak@gmail.com");
-      $message->addTo("derek.wene@yahoo.com");
+      $message->addTo("texomalawncare@gmail.com");
       $message->setSubject("TEXOMA WEBSITE MESSAGE");
       $message->setTextBody($message_content);
       $message->send();
@@ -30,12 +30,12 @@ if (isset($_REQUEST['email']))
 else
 //if "email" is not filled out, display the form
   {
-  echo "<form method='post' action='/contact' class='smart-green'>
- 	<label for='name'>Name:</label> <input type='text' name='name' class='form'><br>
-	<label for='email'>Email:</label> <input type='text' name='email' class='form'><br>
-    <label for='phone'>Phone Number:</label> <input type='text' name='phone' class='form'><br>
-    <label for='address'>Address:</label> <input type='text' name='address' class='form'><br>
-	<label for='message'>Content:</label> <textarea name='message' id='content' class='form' rows='10'></textarea><br>
-	<label for='submit'>&nbsp;</label> <input type='submit' value=' Send '>";
+  echo "<form method='post' action='/contact' class='form-horizontal'>
+ 	<label for='name'>Name:</label> <input type='text' name='name' class='form-control'><br>
+	<label for='email'>Email:</label> <input type='text' name='email' class='form-control'><br>
+    <label for='phone'>Phone Number:</label> <input type='text' name='phone' class='form-control'><br>
+    <label for='address'>Address:</label> <input type='text' name='address' class='form-control'><br>
+	<label for='message'>Content:</label> <textarea name='message' id='content' class='form-control' rows='10'></textarea><br>
+	<button type='submit' class='btn btn-default'>Submit</button>";
   }
 ?>
