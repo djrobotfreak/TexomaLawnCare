@@ -32,7 +32,6 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: green;
-  color:white;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -77,8 +76,11 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  background-color:#42E73A;
+  background-image: url('/png/grass2.jpg');
+  background-position: bottom right; 
   text-align: center;
+  color: white;
+
   border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
@@ -104,9 +106,9 @@ p {
 .styling{
      border-radius: 10px;
      margin: 10px;
-    background-color: grey;
-    padding-bottom: 10px;
+    background-color: #33CC33;
     height:100%;
+    padding:10px;
 }
 .styling h4{
     margin-left: 10px;
@@ -163,7 +165,9 @@ vertical-align: middle;
 .checkbox{
 
 }
-
+.footer{
+    color:black;
+  }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -178,11 +182,13 @@ vertical-align: middle;
     margin-bottom: 30px;
   }
   .footer{
-    color:white;
+    color:black;
   }
   .container{
-    color:white;
+    /*color:white;*/
+      color:black;
   }
+  /* Remove the bottom border on the jumbotron for visual effect */
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;

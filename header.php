@@ -56,7 +56,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/">Home</a></li>
               <li><a href="/things">Things to know</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/contact">Get Started!</a></li>
             </ul>
           </div>
         </div>
