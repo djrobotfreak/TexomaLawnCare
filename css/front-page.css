@@ -1,5 +1,5 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}#top{width: 100%; height:500px;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;font-family: 'Lato', sans-serif; }article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}#top{width: 100%; height:500px;}
 
 /*Just messing around with the header.... hehe*/
 
@@ -76,7 +76,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  background-image: url('/png/grass2.jpg');
+  background-image: url('/png/grass3.jpg');
   background-position: bottom right; 
   text-align: center;
   color: white;
@@ -93,15 +93,16 @@ body {
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
+  margin-top:20px;
   text-align: center;
   /*border: 1px solid #e5e5e5;*/
   
 }
 .marketing p + h4 {
-  margin-top: 28px;
+  margin-top: 24px;
 }
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 .styling{
      border-radius: 10px;
@@ -109,6 +110,9 @@ p {
     background-color: #33CC33;
     height:100%;
     padding:10px;
+}
+.styling ul{
+    font-size:14px;
 }
 .styling h4{
     margin-left: 10px;
@@ -119,7 +123,7 @@ margin: 10px;
 }
 .heading h5{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     color:white;
     text-align: center;
 }
@@ -130,7 +134,7 @@ body h5{
     font-weight: bold;
 }
 body h4 {
-   font-size: 25px; 
+   font-size: 22px; 
     margin-bottom: 10px;
     text-decoration: underline;
     font-weight: bold;
@@ -183,6 +187,15 @@ vertical-align: middle;
   }
   .footer{
     color:black;
+  }
+  .navbar-brand{
+  display: none;
+  }
+  ul.nav{
+  display:block;
+  width:350px;
+  margin: 0 auto;
+  float:none;
   }
   .container{
     /*color:white;*/
