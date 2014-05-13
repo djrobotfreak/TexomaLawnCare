@@ -55,16 +55,14 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="/">Home</a></li>
-              <li><a href="/things">Things to know</a></li>
+              <li><a href="/things">Things to Know</a></li>
                 <li><a href="/contact">Get Started!</a></li>
             </ul>
           </div>
         </div>
       </div>
         
-        <div class="jumbotron">        
-                <img src="png/icon.png" alt="..." style = 'width:20%; float:left;'>        
-                <img src="png/icon.png" alt="..." style = 'width:20%; float:right;'>       
+        <div class="jumbotron">             
             <div style="width:60% position:center">
                 <h1>Texoma Lawn Care</h1>
                 <p class="lead">903-640-3404</p>

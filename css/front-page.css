@@ -38,8 +38,8 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Custom page header */
