@@ -76,11 +76,10 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  background-image: url('/png/grass3.jpg');
+  background-image: url('/png/header.jpg');
   background-position: bottom right; 
   text-align: center;
   color: white;
-
   border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
@@ -105,8 +104,7 @@ p {
     font-size: 14px;
 }
 .styling{
-     border-radius: 10px;
-     margin: 10px;
+    margin: 10px;
     background-color: #33CC33;
     height:100%;
     padding:10px;

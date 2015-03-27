@@ -1,5 +1,5 @@
         <div class="footer">
-            <p>&copy; Texoma Lawn Care 2014</p>
+            <p>&copy; Texoma Lawn Care 2015</p>
         </div>        
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
